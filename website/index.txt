@@ -255,7 +255,7 @@ You can also use your own theme. Create a yml file using the same format as the 
 Load your theme(s):
 
 <pre syntax="ruby">
-  Chart::Theme.add_theme_file("#{File.dirname(__FILE__)}/fixtures/another_test_theme.yml")
+  GoogleCharts::Theme.add_theme_file("#{File.dirname(__FILE__)}/fixtures/another_test_theme.yml")
 </pre>
 
 And use the standard method signature to use your own theme:

@@ -1,6 +1,6 @@
 require 'yaml'
 
-module Chart
+module GoogleCharts
   class Theme
     class ThemeNotFound < RuntimeError; end
     

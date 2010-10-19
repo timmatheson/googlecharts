@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/spec_helper.rb'
 require File.dirname(__FILE__) + '/../lib/gchart'
 
-Chart::Theme.add_theme_file("#{File.dirname(__FILE__)}/fixtures/test_theme.yml")
+GoogleCharts::Theme.add_theme_file("#{File.dirname(__FILE__)}/fixtures/test_theme.yml")
 
 # Time to add your specs!
 # http://rspec.rubyforge.org/
